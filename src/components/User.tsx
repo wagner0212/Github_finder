@@ -12,6 +12,7 @@ import classes from './User.module.css'
  }: UserProps) => {
 
     return (
+     <div className={classes.cont}>   
     <div className={classes.user}>
     <img src={avatar_url} alt={login} />
     <h2>{login}</h2>
@@ -34,6 +35,7 @@ import classes from './User.module.css'
        <Link to={`/repos/${login}`}>Ver melhores projetos</Link>
      </div>
       
+      </div>
     );
  };
 
