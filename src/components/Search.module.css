@@ -20,10 +20,9 @@
 .search_container {
     display: flex;
     gap:0.5rem;
-    margin-left: 105px;
-    
-
+    margin-left: 20px;
 }
+
 .search_container input, .search_container button {
     padding: .6rem;
     border-radius: 3px;

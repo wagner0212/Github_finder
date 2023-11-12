@@ -1,6 +1,6 @@
 import { UserProps } from "../types/user";
 import { MdLocationPin } from "react-icons/md"
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 import classes from './User.module.css' 
 
  const User = ({
@@ -30,8 +30,8 @@ import classes from './User.module.css'
         <p>Seguindo:</p>
         <p className={classes.number}>{following}</p>
        </div>
-     </div>
-     <Link to={`/repos/${login}`}>Ver melhores projetos</Link>
+       </div>
+       <Link to={`/repos/${login}`}>Ver melhores projetos</Link>
      </div>
       
     );
